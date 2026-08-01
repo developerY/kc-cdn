@@ -1,0 +1,13 @@
+[package]
+name = "kc-cdn"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+image = { version = "0.25", features = ["webp"] }
+rayon = "1.10"
+
+[[bin]]
+name = "kc-cdn"
+path = "main.rs"
